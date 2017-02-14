@@ -49,11 +49,9 @@
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"Cell" forIndexPath:indexPath];
-    NSDictionary *currentResult= self.numbersArray[indexPath.row];
-    
+    NSDictionary *currentResult= self.numbersArray[indexPath.row];    
     cell.textLabel.text = [currentResult valueForKey:@"multiplesNumber"];
     cell.detailTextLabel.text = [NSString stringWithFormat:@"%d", [[currentResult valueForKey:@"operationResult"] intValue]];
-    
     return cell;
 }
 
