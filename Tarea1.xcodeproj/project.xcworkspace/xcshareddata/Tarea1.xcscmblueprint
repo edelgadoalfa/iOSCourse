@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "732F0E509E96D4705E44F917B4EFABF173BED31F",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "E61D1B40DA3D53B45733A8BB50AB19B744C00B79" : 9223372036854775807,
+    "732F0E509E96D4705E44F917B4EFABF173BED31F" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "F513C2E4-233A-4C12-8B2A-96EDA8696AD5",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "E61D1B40DA3D53B45733A8BB50AB19B744C00B79" : "",
+    "732F0E509E96D4705E44F917B4EFABF173BED31F" : "Tarea1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Tarea1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Tarea1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/edelgadoalfa\/iOSCourse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "732F0E509E96D4705E44F917B4EFABF173BED31F"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/edelgadoalfa\/iOSCourse.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "E61D1B40DA3D53B45733A8BB50AB19B744C00B79"
+    }
+  ]
+}
