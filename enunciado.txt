@@ -1,0 +1,8 @@
+La aplicación que tengo planeado desarrollar es para Ciclismo de Montaña, entonces constaría de por lo menos 3 secciones.
+1. Concejos de postura correcta del cuerpo; con respecto a la simetría de la bicicleta, consejos durante la actividad,.
+2. Comida adecuada antes, durante y después, de la actividad.
+3. Algunas Rutas para ciclismo de Montaña.
+4. me gustaría desarrollar alguna pantalla para ver el tiempo y distancia de la actividad, pero no se si me daría tiempo, por lo tanto necesito su consejo.
+
+
+Muchas Gracias.
