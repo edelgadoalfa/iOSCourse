@@ -54,7 +54,7 @@
     return self.items.count;
 }
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
-   ItemCustomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ItemCustomTableViewCell.h"];
+   ItemCustomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:[ItemCustomTableViewCell getClassName]];
     Item *items = self.items[indexPath.row];
     [cell setupCellWithItems:items];
     return cell;

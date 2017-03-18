@@ -1,4 +1,4 @@
-//
+   ///
 //  CoreDataManager.m
 //  Quiz5
 //
@@ -26,16 +26,10 @@
     NSArray *items = [Item MR_findAll];
        if (items.count>0) {
            return items;}else
-    return [CoreDataManager insertCategories];
+    return nil;
 
 }
 
-
-+(NSArray*)insertCategories{
-    [Item insertItemWithName:@"test" quantity:@"es" date:[NSDate date]] ;
-    [CoreDataManager saveContext];
-    return [CoreDataManager getAllItems];
-}
 
 
 
