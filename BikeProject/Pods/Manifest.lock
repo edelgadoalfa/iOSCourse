@@ -1,0 +1,17 @@
+PODS:
+  - ContextMenu.iOS (1.1.0)
+  - Realm (2.4.3):
+    - Realm/Headers (= 2.4.3)
+  - Realm/Headers (2.4.3)
+
+DEPENDENCIES:
+  - ContextMenu.iOS (~> 1.1.0)
+  - Realm
+
+SPEC CHECKSUMS:
+  ContextMenu.iOS: 7f3b63915e660f51aada2c4285c40a837b2c9737
+  Realm: e08d60b0048ccccd3949c8c28a92c4db5712d7e9
+
+PODFILE CHECKSUM: 54aff4154d7856f322cd5058bee2fa9d8418b6c4
+
+COCOAPODS: 1.2.0

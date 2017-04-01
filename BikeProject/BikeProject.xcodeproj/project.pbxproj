@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		215DE1D41E85C57200637428 /* AdviceCustomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 215DE1D21E85C57200637428 /* AdviceCustomTableViewCell.m */; };
+		215DE1D51E85C57200637428 /* AdviceCustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215DE1D31E85C57200637428 /* AdviceCustomTableViewCell.xib */; };
+		21B949911E8B41FF004D3613 /* ActivityViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B949901E8B41FF004D3613 /* ActivityViewController.m */; };
+		21B949941E8B4833004D3613 /* Activity.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B949931E8B4833004D3613 /* Activity.m */; };
+		21B949981E8B4C0C004D3613 /* ActivityTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21B949961E8B4C0C004D3613 /* ActivityTableViewCell.m */; };
+		21B949991E8B4C0C004D3613 /* ActivityTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21B949971E8B4C0C004D3613 /* ActivityTableViewCell.xib */; };
+		21DEC4A41E85C7C300C8DF1A /* UITableViewCell+GetClassName.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DEC4A31E85C7C300C8DF1A /* UITableViewCell+GetClassName.m */; };
+		21DEC4A71E85C7DE00C8DF1A /* UITableView+RegisterCustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21DEC4A61E85C7DE00C8DF1A /* UITableView+RegisterCustomCell.m */; };
+		21E32F261E897A9A008B8637 /* AdviceDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21E32F251E897A9A008B8637 /* AdviceDetailsViewController.m */; };
+		21FBEE881E84390D00A8443C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEE871E84390D00A8443C /* main.m */; };
+		21FBEE8B1E84390D00A8443C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEE8A1E84390D00A8443C /* AppDelegate.m */; };
+		21FBEE911E84390D00A8443C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 21FBEE8F1E84390D00A8443C /* Main.storyboard */; };
+		21FBEE931E84390D00A8443C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 21FBEE921E84390D00A8443C /* Assets.xcassets */; };
+		21FBEE9F1E84452700A8443C /* MenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEE9E1E84452700A8443C /* MenuViewController.m */; };
+		21FBEEA51E84682700A8443C /* YALNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEEA41E84682700A8443C /* YALNavigationBar.m */; };
+		21FBEEAA1E846BF700A8443C /* ContextMenuCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEEA81E846BF700A8443C /* ContextMenuCell.m */; };
+		21FBEEAB1E846BF700A8443C /* ContextMenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21FBEEA91E846BF700A8443C /* ContextMenuCell.xib */; };
+		21FBEEAE1E8473DD00A8443C /* AdvicesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEEAD1E8473DD00A8443C /* AdvicesViewController.m */; };
+		21FBEEB31E847F5C00A8443C /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEEB21E847F5C00A8443C /* Category.m */; };
+		21FBEEB61E84805900A8443C /* Advice.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEEB51E84805900A8443C /* Advice.m */; };
+		21FBEEBA1E8481D700A8443C /* RealManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 21FBEEB91E8481D700A8443C /* RealManager.m */; };
+		F84B5B69FAA1AD848E4DA614 /* libPods-BikeProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EC1536D73680382316D13FB7 /* libPods-BikeProject.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		215DE1D11E85C57200637428 /* AdviceCustomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdviceCustomTableViewCell.h; sourceTree = "<group>"; };
+		215DE1D21E85C57200637428 /* AdviceCustomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdviceCustomTableViewCell.m; sourceTree = "<group>"; };
+		215DE1D31E85C57200637428 /* AdviceCustomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AdviceCustomTableViewCell.xib; sourceTree = "<group>"; };
+		21B9498F1E8B41FF004D3613 /* ActivityViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityViewController.h; sourceTree = "<group>"; };
+		21B949901E8B41FF004D3613 /* ActivityViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityViewController.m; sourceTree = "<group>"; };
+		21B949921E8B4833004D3613 /* Activity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Activity.h; sourceTree = "<group>"; };
+		21B949931E8B4833004D3613 /* Activity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Activity.m; sourceTree = "<group>"; };
+		21B949951E8B4C0C004D3613 /* ActivityTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ActivityTableViewCell.h; sourceTree = "<group>"; };
+		21B949961E8B4C0C004D3613 /* ActivityTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ActivityTableViewCell.m; sourceTree = "<group>"; };
+		21B949971E8B4C0C004D3613 /* ActivityTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ActivityTableViewCell.xib; sourceTree = "<group>"; };
+		21DEC4A21E85C7C300C8DF1A /* UITableViewCell+GetClassName.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableViewCell+GetClassName.h"; sourceTree = "<group>"; };
+		21DEC4A31E85C7C300C8DF1A /* UITableViewCell+GetClassName.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableViewCell+GetClassName.m"; sourceTree = "<group>"; };
+		21DEC4A51E85C7DE00C8DF1A /* UITableView+RegisterCustomCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITableView+RegisterCustomCell.h"; sourceTree = "<group>"; };
+		21DEC4A61E85C7DE00C8DF1A /* UITableView+RegisterCustomCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITableView+RegisterCustomCell.m"; sourceTree = "<group>"; };
+		21E32F241E897A9A008B8637 /* AdviceDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdviceDetailsViewController.h; sourceTree = "<group>"; };
+		21E32F251E897A9A008B8637 /* AdviceDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdviceDetailsViewController.m; sourceTree = "<group>"; };
+		21FBEE831E84390D00A8443C /* BikeProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BikeProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21FBEE871E84390D00A8443C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21FBEE891E84390D00A8443C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		21FBEE8A1E84390D00A8443C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		21FBEE901E84390D00A8443C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		21FBEE921E84390D00A8443C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		21FBEE971E84390D00A8443C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		21FBEE9D1E84452700A8443C /* MenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuViewController.h; sourceTree = "<group>"; };
+		21FBEE9E1E84452700A8443C /* MenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuViewController.m; sourceTree = "<group>"; };
+		21FBEEA31E84682700A8443C /* YALNavigationBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YALNavigationBar.h; sourceTree = "<group>"; };
+		21FBEEA41E84682700A8443C /* YALNavigationBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YALNavigationBar.m; sourceTree = "<group>"; };
+		21FBEEA71E846BF700A8443C /* ContextMenuCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ContextMenuCell.h; path = ContextMenuCell/ContextMenuCell.h; sourceTree = "<group>"; };
+		21FBEEA81E846BF700A8443C /* ContextMenuCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ContextMenuCell.m; path = ContextMenuCell/ContextMenuCell.m; sourceTree = "<group>"; };
+		21FBEEA91E846BF700A8443C /* ContextMenuCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = ContextMenuCell.xib; path = ContextMenuCell/ContextMenuCell.xib; sourceTree = "<group>"; };
+		21FBEEAC1E8473DD00A8443C /* AdvicesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AdvicesViewController.h; sourceTree = "<group>"; };
+		21FBEEAD1E8473DD00A8443C /* AdvicesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AdvicesViewController.m; sourceTree = "<group>"; };
+		21FBEEB11E847F5C00A8443C /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		21FBEEB21E847F5C00A8443C /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		21FBEEB41E84805900A8443C /* Advice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Advice.h; sourceTree = "<group>"; };
+		21FBEEB51E84805900A8443C /* Advice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Advice.m; sourceTree = "<group>"; };
+		21FBEEB81E8481D700A8443C /* RealManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RealManager.h; sourceTree = "<group>"; };
+		21FBEEB91E8481D700A8443C /* RealManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RealManager.m; sourceTree = "<group>"; };
+		25344251E99796061E2AC8FC /* Pods-BikeProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeProject/Pods-BikeProject.release.xcconfig"; sourceTree = "<group>"; };
+		5D0F235224419FA9E851B9B7 /* Pods-BikeProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeProject/Pods-BikeProject.debug.xcconfig"; sourceTree = "<group>"; };
+		EC1536D73680382316D13FB7 /* libPods-BikeProject.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BikeProject.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21FBEE801E84390C00A8443C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F84B5B69FAA1AD848E4DA614 /* libPods-BikeProject.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		13F9CBFF51161137243708C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EC1536D73680382316D13FB7 /* libPods-BikeProject.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		215DE1D61E85C72400637428 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				21DEC4A21E85C7C300C8DF1A /* UITableViewCell+GetClassName.h */,
+				21DEC4A31E85C7C300C8DF1A /* UITableViewCell+GetClassName.m */,
+				21DEC4A51E85C7DE00C8DF1A /* UITableView+RegisterCustomCell.h */,
+				21DEC4A61E85C7DE00C8DF1A /* UITableView+RegisterCustomCell.m */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		21B9498E1E8B41D0004D3613 /* Activity */ = {
+			isa = PBXGroup;
+			children = (
+				21B9498F1E8B41FF004D3613 /* ActivityViewController.h */,
+				21B949901E8B41FF004D3613 /* ActivityViewController.m */,
+				21B949921E8B4833004D3613 /* Activity.h */,
+				21B949931E8B4833004D3613 /* Activity.m */,
+				21B949951E8B4C0C004D3613 /* ActivityTableViewCell.h */,
+				21B949961E8B4C0C004D3613 /* ActivityTableViewCell.m */,
+				21B949971E8B4C0C004D3613 /* ActivityTableViewCell.xib */,
+			);
+			name = Activity;
+			sourceTree = "<group>";
+		};
+		21FBEE7A1E84390C00A8443C = {
+			isa = PBXGroup;
+			children = (
+				21FBEE851E84390D00A8443C /* BikeProject */,
+				21FBEE841E84390D00A8443C /* Products */,
+				77952D310BD1C4EAA4834BB2 /* Pods */,
+				13F9CBFF51161137243708C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		21FBEE841E84390D00A8443C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21FBEE831E84390D00A8443C /* BikeProject.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21FBEE851E84390D00A8443C /* BikeProject */ = {
+			isa = PBXGroup;
+			children = (
+				21B9498E1E8B41D0004D3613 /* Activity */,
+				215DE1D61E85C72400637428 /* Utilities */,
+				21FBEEB71E8481C100A8443C /* Managers */,
+				21FBEEB01E847EF200A8443C /* Categories */,
+				21FBEEAF1E847DE300A8443C /* Advice */,
+				21FBEEA61E846BE700A8443C /* ContextMenu */,
+				21FBEE891E84390D00A8443C /* AppDelegate.h */,
+				21FBEE8A1E84390D00A8443C /* AppDelegate.m */,
+				21FBEE8F1E84390D00A8443C /* Main.storyboard */,
+				21FBEE921E84390D00A8443C /* Assets.xcassets */,
+				21FBEE971E84390D00A8443C /* Info.plist */,
+				21FBEE861E84390D00A8443C /* Supporting Files */,
+			);
+			path = BikeProject;
+			sourceTree = "<group>";
+		};
+		21FBEE861E84390D00A8443C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21FBEE871E84390D00A8443C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		21FBEEA61E846BE700A8443C /* ContextMenu */ = {
+			isa = PBXGroup;
+			children = (
+				21FBEEA31E84682700A8443C /* YALNavigationBar.h */,
+				21FBEEA41E84682700A8443C /* YALNavigationBar.m */,
+				21FBEEA71E846BF700A8443C /* ContextMenuCell.h */,
+				21FBEEA81E846BF700A8443C /* ContextMenuCell.m */,
+				21FBEEA91E846BF700A8443C /* ContextMenuCell.xib */,
+			);
+			name = ContextMenu;
+			sourceTree = "<group>";
+		};
+		21FBEEAF1E847DE300A8443C /* Advice */ = {
+			isa = PBXGroup;
+			children = (
+				21FBEEAC1E8473DD00A8443C /* AdvicesViewController.h */,
+				21FBEEAD1E8473DD00A8443C /* AdvicesViewController.m */,
+				21FBEEB41E84805900A8443C /* Advice.h */,
+				21FBEEB51E84805900A8443C /* Advice.m */,
+				215DE1D11E85C57200637428 /* AdviceCustomTableViewCell.h */,
+				215DE1D21E85C57200637428 /* AdviceCustomTableViewCell.m */,
+				215DE1D31E85C57200637428 /* AdviceCustomTableViewCell.xib */,
+				21E32F241E897A9A008B8637 /* AdviceDetailsViewController.h */,
+				21E32F251E897A9A008B8637 /* AdviceDetailsViewController.m */,
+			);
+			name = Advice;
+			sourceTree = "<group>";
+		};
+		21FBEEB01E847EF200A8443C /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				21FBEE9D1E84452700A8443C /* MenuViewController.h */,
+				21FBEE9E1E84452700A8443C /* MenuViewController.m */,
+				21FBEEB11E847F5C00A8443C /* Category.h */,
+				21FBEEB21E847F5C00A8443C /* Category.m */,
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		21FBEEB71E8481C100A8443C /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				21FBEEB81E8481D700A8443C /* RealManager.h */,
+				21FBEEB91E8481D700A8443C /* RealManager.m */,
+			);
+			name = Managers;
+			sourceTree = "<group>";
+		};
+		77952D310BD1C4EAA4834BB2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5D0F235224419FA9E851B9B7 /* Pods-BikeProject.debug.xcconfig */,
+				25344251E99796061E2AC8FC /* Pods-BikeProject.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21FBEE821E84390C00A8443C /* BikeProject */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21FBEE9A1E84390D00A8443C /* Build configuration list for PBXNativeTarget "BikeProject" */;
+			buildPhases = (
+				5E2317BCF0E1B28143F3C050 /* [CP] Check Pods Manifest.lock */,
+				21FBEE7F1E84390C00A8443C /* Sources */,
+				21FBEE801E84390C00A8443C /* Frameworks */,
+				21FBEE811E84390C00A8443C /* Resources */,
+				A89BD97D95054178C7034F16 /* [CP] Embed Pods Frameworks */,
+				03E30952D81EE3E1478724F3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BikeProject;
+			productName = BikeProject;
+			productReference = 21FBEE831E84390D00A8443C /* BikeProject.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21FBEE7B1E84390C00A8443C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Edgar Delgado";
+				TargetAttributes = {
+					21FBEE821E84390C00A8443C = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 21FBEE7E1E84390C00A8443C /* Build configuration list for PBXProject "BikeProject" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 21FBEE7A1E84390C00A8443C;
+			productRefGroup = 21FBEE841E84390D00A8443C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21FBEE821E84390C00A8443C /* BikeProject */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21FBEE811E84390C00A8443C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				215DE1D51E85C57200637428 /* AdviceCustomTableViewCell.xib in Resources */,
+				21FBEE931E84390D00A8443C /* Assets.xcassets in Resources */,
+				21FBEEAB1E846BF700A8443C /* ContextMenuCell.xib in Resources */,
+				21B949991E8B4C0C004D3613 /* ActivityTableViewCell.xib in Resources */,
+				21FBEE911E84390D00A8443C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03E30952D81EE3E1478724F3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeProject/Pods-BikeProject-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5E2317BCF0E1B28143F3C050 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		A89BD97D95054178C7034F16 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeProject/Pods-BikeProject-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21FBEE7F1E84390C00A8443C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21FBEEB31E847F5C00A8443C /* Category.m in Sources */,
+				21FBEEAE1E8473DD00A8443C /* AdvicesViewController.m in Sources */,
+				21B949981E8B4C0C004D3613 /* ActivityTableViewCell.m in Sources */,
+				21FBEEA51E84682700A8443C /* YALNavigationBar.m in Sources */,
+				21FBEE8B1E84390D00A8443C /* AppDelegate.m in Sources */,
+				21B949941E8B4833004D3613 /* Activity.m in Sources */,
+				21DEC4A41E85C7C300C8DF1A /* UITableViewCell+GetClassName.m in Sources */,
+				21B949911E8B41FF004D3613 /* ActivityViewController.m in Sources */,
+				21E32F261E897A9A008B8637 /* AdviceDetailsViewController.m in Sources */,
+				215DE1D41E85C57200637428 /* AdviceCustomTableViewCell.m in Sources */,
+				21FBEE9F1E84452700A8443C /* MenuViewController.m in Sources */,
+				21FBEEAA1E846BF700A8443C /* ContextMenuCell.m in Sources */,
+				21FBEE881E84390D00A8443C /* main.m in Sources */,
+				21FBEEB61E84805900A8443C /* Advice.m in Sources */,
+				21DEC4A71E85C7DE00C8DF1A /* UITableView+RegisterCustomCell.m in Sources */,
+				21FBEEBA1E8481D700A8443C /* RealManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21FBEE8F1E84390D00A8443C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21FBEE901E84390D00A8443C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21FBEE981E84390D00A8443C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21FBEE991E84390D00A8443C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21FBEE9B1E84390D00A8443C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5D0F235224419FA9E851B9B7 /* Pods-BikeProject.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BikeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.BikeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		21FBEE9C1E84390D00A8443C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25344251E99796061E2AC8FC /* Pods-BikeProject.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = BikeProject/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.com.BikeProject;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21FBEE7E1E84390C00A8443C /* Build configuration list for PBXProject "BikeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FBEE981E84390D00A8443C /* Debug */,
+				21FBEE991E84390D00A8443C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21FBEE9A1E84390D00A8443C /* Build configuration list for PBXNativeTarget "BikeProject" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21FBEE9B1E84390D00A8443C /* Debug */,
+				21FBEE9C1E84390D00A8443C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21FBEE7B1E84390C00A8443C /* Project object */;
+}
